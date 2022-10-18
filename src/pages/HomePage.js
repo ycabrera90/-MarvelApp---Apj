@@ -23,6 +23,7 @@ let firstMount = false;
 let fetchedDatas = [];
 
 const URL_SERIES = `${API_URL}${SERIES_ENDPOINT}?apikey=${PUBLIC_KEY}&ts=${TIME_STAMP}&hash=${MD5_HASH}`;
+// const URL_SERIES = `${API_URL}${SERIES_ENDPOINT}?apikey=${PUBLIC_KEY}`;
 
 const HomePage = () => {
   const { isLoading, error, sendRequest } = useHTTP();
