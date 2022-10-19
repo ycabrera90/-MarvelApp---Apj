@@ -19,12 +19,14 @@ function App() {
     <Suspense fallback={<></>}>
       <MainHeader />
       <InfoBar />
-      <HomePage />
 
       <Route path="/" exact>
         <Redirect to="/series" />
       </Route>
-      
+
+      <Route path="/series" exact>
+        <HomePage />
+      </Route>
     </Suspense>
   );
 }
