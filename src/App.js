@@ -1,6 +1,5 @@
 import "./App.css";
 import React, { Suspense } from "react";
-import { Route, Redirect } from "react-router-dom";
 
 // for dev env.
 // import MainHeader from "./components/MainHeader/MainHeader";
@@ -19,14 +18,7 @@ function App() {
     <Suspense fallback={<></>}>
       <MainHeader />
       <InfoBar />
-
-      <Route path="/" exact>
-        <Redirect to="/series" />
-      </Route>
-
-      <Route path="/series" exact>
-        <HomePage />
-      </Route>
+      <HomePage />
     </Suspense>
   );
 }

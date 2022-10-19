@@ -16,13 +16,12 @@ For run this project you have to follow the next steps:
 ## Resources and Features
 - React redux
 - Redux toolkit
-- React router 5
-- MPA on SPA
 - Custom hooks
 - CSS grid
 - CSS flexbox
 - Sass
 - Fecth API
+- NodeJs at [backend](https://github.com/ycabrera90/MarvelApp-bkEnd.git)
 
 
 ## Read More
