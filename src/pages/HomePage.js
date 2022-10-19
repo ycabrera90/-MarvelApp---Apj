@@ -4,13 +4,8 @@ import { useDispatch } from "react-redux";
 import useHTTP from "../hooks/use-HTTP";
 import ItemGrid from "../components/ItemGrid/ItemGrid";
 
-import {
-  API_URL,
-  SERIES_ENDPOINT,
-  PUBLIC_KEY,
-  TIME_STAMP,
-  MD5_HASH,
-} from "../credentials";
+const API_URL = "https://eip-marvel-app.herokuapp.com";
+const SERIES_ENDPOINT = "/series";
 
 const TEXT_MSSG = { text: "MARVEL SERIES", type: "message" };
 const ALERT_MSSG = { text: "Loading...", type: "alert" };
@@ -18,12 +13,9 @@ const ERROR_MSSG = {
   text: "Sorry 😔. Something went wrong",
   type: "error",
 };
+
 let firstMount = false;
-
 let fetchedDatas = [];
-
-const URL_SERIES = `${API_URL}${SERIES_ENDPOINT}?apikey=${PUBLIC_KEY}&ts=${TIME_STAMP}&hash=${MD5_HASH}`;
-// const URL_SERIES = `${API_URL}${SERIES_ENDPOINT}?apikey=${PUBLIC_KEY}`;
 
 const HomePage = () => {
   const { isLoading, error, sendRequest } = useHTTP();
@@ -42,7 +34,7 @@ const HomePage = () => {
   };
 
   useEffect(() => {
-    sendRequest({ url: URL_SERIES }, getFetchedDatas);
+    sendRequest({ url: `${API_URL}${SERIES_ENDPOINT}` }, getFetchedDatas);
   }, []);
 
   useEffect(() => {
