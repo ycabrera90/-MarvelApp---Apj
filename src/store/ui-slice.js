@@ -2,6 +2,8 @@ import { createSlice } from "@reduxjs/toolkit"; // tambien se puede usar el crea
 
 const initialUiState = { message: { text: null, type: null } };
 
+
+
 const uiSlice = createSlice({
   name: "ui",
   initialState: initialUiState,
@@ -14,6 +16,8 @@ const uiSlice = createSlice({
     },
   },
 });
+
+
 
 export const uiActions = uiSlice.actions;
 export const uiReducer = uiSlice.reducer;

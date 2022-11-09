@@ -10,7 +10,7 @@
 
 
 # Marvel App
-With this [web page](https://eip-marvel-app.web.app/) you can se the most popular characters of Marvel and DC Comics. 
+With this [web page](https://eip-marvel-app.web.app/) you can see the most popular characters of Marvel and DC Comics. 
 
 ## Built with
 * [React](https://es.reactjs.org/docs/getting-started.html) - Javascript Library (Framework!)
