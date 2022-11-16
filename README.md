@@ -1,16 +1,14 @@
 <p align="center">
-  <a href="https://eip-my-summary.web.app/"
+  <a href="https://eip-marvel-app.web.app/"
     ><img
-      src="https://eip-my-summary.herokuapp.com/images/logo"
+      src="https://eip-marvel-app.web.app/project-landing-page.gif"
       alt="EIP Studios"
      />
   </a>
 </p>
 
-
-
 # Marvel App
-With this [web page](https://eip-marvel-app.web.app/) you can see the most popular characters of Marvel and DC Comics. 
+On this [website](https://eip-marvel-app.web.app/) you can see the most popular Marvel series and have all the details of the series that you like the most
 
 ## Built with
 * [React](https://es.reactjs.org/docs/getting-started.html) - Javascript Library (Framework!)
