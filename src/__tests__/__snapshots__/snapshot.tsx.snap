@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App unchanged 1`] = `
+<div>
+  <div
+    data-testid="my-app"
+    id="my-app"
+  >
+    <header
+      class="container"
+      data-testid="MainHeader"
+    >
+      <a
+        href="https://www.marvel.com/"
+      >
+        <img
+          src="marvel-logo.png"
+        />
+      </a>
+    </header>
+    <main
+      class="main styled-scrollbar"
+      data-testid="MovieCards"
+    >
+      <div
+        class="images-container"
+      />
+    </main>
+  </div>
+</div>
+`;
