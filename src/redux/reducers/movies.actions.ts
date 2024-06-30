@@ -4,5 +4,5 @@ import { MarvelAppService } from "service/marvelApp.service";
 
 export const fetchMovies = createAsyncThunk<IMovies>(
   "movies/fetchMovies",
-  MarvelAppService.fecthMovies
+  MarvelAppService.fetchMovies
 );
