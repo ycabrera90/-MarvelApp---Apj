@@ -1,8 +1,8 @@
 interface IMovie {
-  title: string;
-  startYear: number;
-  url: string;
-  thumbnailURL: string;
+	title: string
+	startYear: number
+	url: string
+	thumbnailURL: string
 }
 
-export type IMovies = IMovie[];
+export type IMovies = IMovie[]

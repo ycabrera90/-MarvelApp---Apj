@@ -1,18 +1,18 @@
 $height-main-bar: 3rem;
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: $height-main-bar;
-    border-bottom: #ffffff9e 2px solid;
-    color: #ffffff9e;
-    padding: 0 0.5rem;
-    background: #202020;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: $height-main-bar;
+	border-bottom: #ffffff9e 2px solid;
+	color: #ffffff9e;
+	padding: 0 0.5rem;
+	background: #202020;
 
-    img {
-        height: calc($height-main-bar - 0.13rem);
-        margin-top: 0.4rem;
-    }
+	img {
+		height: calc($height-main-bar - 0.13rem);
+		margin-top: 0.4rem;
+	}
 }

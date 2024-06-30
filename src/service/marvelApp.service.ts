@@ -1,15 +1,13 @@
-import { moviesAdapter } from "adapters/marvelApp.adapter";
+import { moviesAdapter } from "adapters/marvelApp.adapter"
+import { ENDPOINTS } from "../constants/Endpoints"
 
-const API_URL = "https://eip-marvel-app.herokuapp.com";
-const SERIES_ENDPOINT = "/series";
-
-const fecthMovies = async () => {
-  const response =  await fetch(`${API_URL}${SERIES_ENDPOINT}`);
-  if (response.status !== 200) throw new Error('Error fetching data');
-  const movies = await response.json();
-  return moviesAdapter(movies.data.results);
-};
+const fetchMovies = async () => {
+	const response = await fetch(`${ENDPOINTS.API_URL}${ENDPOINTS.SERIES}`)
+	if (response.status !== 200) throw new Error("Error fetching data")
+	const movies = await response.json()
+	return moviesAdapter(movies.data.results)
+}
 
 export const MarvelAppService = {
-  fecthMovies,
-};
+	fetchMovies,
+}
