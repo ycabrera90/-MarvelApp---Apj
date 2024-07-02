@@ -1,14 +1,14 @@
 <p align="center">
-  <a href="https://eip-marvel-app.web.app/"
+  <a href="https://marvel-app.yosniel-dev.com/"
     ><img
-      src="https://eip-marvel-app.web.app/project-landing-page.gif"
+      src="https://marvel-app.yosniel-dev.com/project-landing-page.gif"
       alt="EIP Studios"
      />
   </a>
 </p>
 
 # Marvel App
-On this [website](https://eip-marvel-app.web.app/) you can see the most popular Marvel series and have all the details of the series that you like the most
+On this [website](https://marvel-app.yosniel-dev.com/) you can see the most popular Marvel series and have all the details of the series that you like the most
 
 ## Built with
 * [React](https://es.reactjs.org/docs/getting-started.html) - Javascript Library (Framework!)
@@ -22,7 +22,7 @@ If you are interested in the server side part of this project you can find the r
 
 ## Clone and run app
 These instructions will allow you to obtain a copy of the project on your local machine for development and test purposes.
-Look the [**deployment**](https://eip-marvel-app.web.app/) so you can see the final result.
+Look the [**deployment**](https://marvel-app.yosniel-dev.com/) so you can see the final result.
 
 
 #### Pre-requirements
